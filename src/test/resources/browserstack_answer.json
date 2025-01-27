@@ -31,4 +31,4 @@
     "session_terminal_logs_url": "https://app-automate.browserstack.com/s3-upload/bs-selenium-logs-use/s3/data/9a018ff951fd6a4b7cd73cd202f2e5cf3bd74ae9/0359d759d2aaa4f46401dac46bd281b6d9b24943-terminal-logs.txt?response-content-type=text%2Fplain\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2XUQHUQMNDAH3DZO%2F20231128%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20231128T184217Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=8a57f2a9cb762e7a2deb9b6f95874d52704232b619801315c3833cea1bb2bdd6",
     "build_terminal_logs_url": "https://app-automate.browserstack.com/s3-upload/bs-selenium-logs-use/s3/data/9a018ff951fd6a4b7cd73cd202f2e5cf3bd74ae9/terminal-logs.txt?response-content-type=text%2Fplain\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2XUQHUQMNDAH3DZO%2F20231128%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20231128T184217Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=e9cbb3c3bf9ba80d6523a0fe60522bda201c40363a291a0de38b755b17364cc4"
   }
-}
+}.
