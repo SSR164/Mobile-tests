@@ -11,9 +11,11 @@ public interface WebDriverConfig extends Config{
     String getBaseUrl();
 
     @Key("user")
+    @DefaultValue("sergt_1KLDkU")
     String getUser();
 
     @Key("password")
+    @DefaultValue("xsyZBq49dstMFJ4XkPhz")
     String getPassword();
 
     @Key("app")
