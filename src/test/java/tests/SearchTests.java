@@ -13,7 +13,7 @@ public class SearchTests extends TestBase {
     String text= "Region in East Asia";
 
     @Test
-    @DisplayName("Поиск {appiumElement}")
+    @DisplayName("Поиск Appium")
     @Tag("android")
     void successfulSearchTest() {
         wikiPage.clicSearchWikipedia();
@@ -25,7 +25,7 @@ public class SearchTests extends TestBase {
 
 
     @Test
-    @DisplayName("Поиск {koreaElement}")
+    @DisplayName("Поиск Korea")
     @Tag("android")
     void searchKoreaTest() {
         wikiPage.clicSearchWikipedia();
