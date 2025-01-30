@@ -2,6 +2,7 @@ package drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
 import config.WebDriverConfig;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +14,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class BrowserstackDriver implements WebDriverProvider {
-    static WebDriverConfig config;
+    private static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class);
     @Nonnull
     @Override
     public WebDriver createDriver(@Nonnull Capabilities capabilities) {
@@ -27,8 +28,8 @@ public class BrowserstackDriver implements WebDriverProvider {
         caps.setCapability("app", config.getApp());
 
         // Specify device and os_version for testing
-        caps.setCapability("device", "Google Pixel 3");
-        caps.setCapability("os_version", "9.0");
+        caps.setCapability("device",config.getDevice() );
+        caps.setCapability("os_version", config.getOsVersion());
 
         // Set other BrowserStack capabilities
         caps.setCapability("project", "First Java Project");
